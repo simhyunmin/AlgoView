@@ -8,13 +8,13 @@
 # 🛠️ 기술 스택
 
 <br>
-Front
+### Front
 <br>
 <br>
 <br>
 <br>
 
-Backend
+### Backend
 <br>
 <img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=OpenJDK&logoColor=white">
 <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=Spring&logoColor=white">
@@ -24,7 +24,7 @@ Backend
 <br>
 <br>
 
-Data Analysis
+### Data Analysis
 <br>
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white">
 <br>
