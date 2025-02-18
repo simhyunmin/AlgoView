@@ -1,0 +1,49 @@
+plugins {
+	id 'java'
+	id 'org.springframework.boot' version '3.4.2'
+	id 'io.spring.dependency-management' version '1.1.7'
+}
+
+group = 'AlgoView'
+version = '0.0.1-SNAPSHOT'
+
+java {
+	toolchain {
+		languageVersion = JavaLanguageVersion.of(17)
+	}
+}
+
+configurations {
+	compileOnly {
+		extendsFrom annotationProcessor
+	}
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	//spring 의존성 (data-jpa 의존성은 현재 DB 선정 안 했기 때문에 임시 주석 처리 하였음)
+	//implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+
+	//SpringDoc OpenAPI 의존성
+	//Swagger UI를 통해 API 문서를 시각적으로 제공
+	implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.0.2'
+
+	//Lombok 의존성
+	compileOnly 'org.projectlombok:lombok'
+	annotationProcessor 'org.projectlombok:lombok'
+
+	// P6Spy Spring Boot Starter 의존성
+	// 애플리케이션의 모든 SQL 쿼리를 로깅하여 디버깅 및 성능 분석 해줌
+	implementation 'com.github.gavlyukovskiy:p6spy-spring-boot-starter:1.8.1'
+
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
+
+tasks.named('test') {
+	useJUnitPlatform()
+}
