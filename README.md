@@ -1,5 +1,5 @@
 # AlgoView
-개인 맞춤형 유튜브 분석 및 인사이트 제공 플랫폼입니다.
+> 개인 맞춤형 유튜브 분석 및 인사이트 제공 플랫폼입니다.
 
 ## 🛠️ 기술 스택
 Front
@@ -8,16 +8,16 @@ Front
 Backend
 <br>
 <img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=OpenJDK&logoColor=white">
-![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
+<img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=Spring&logoColor=white">
 <img src="https://img.shields.io/badge/springboot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white">
 <br>
 
 Data Analysis
 <br>
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white">
 <br>
 
-## 협업툴
+## 🗂️ 협업툴
 <br>
 
 ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white)
