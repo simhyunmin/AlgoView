@@ -1,7 +1,7 @@
 # AlgoView
 <br>
 
-개인 맞춤형 유튜브 분석 및 인사이트 제공 플랫폼입니다.
+### 개인 맞춤형 유튜브 분석 및 인사이트 제공 플랫폼입니다.
 
 <br>
 <br>
@@ -19,13 +19,14 @@
 <br>
 
 ### Backend
-<img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=Spring&logoColor=white">
-<img src="https://img.shields.io/badge/springboot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white">
+
+<br>
 <br>
 <br>
 <br>
 
 ### Data Analysis
+
 <br>
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white">
 <br>
