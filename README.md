@@ -1,6 +1,8 @@
 # AlgoView
-> 개인 맞춤형 유튜브 분석 및 인사이트 제공 플랫폼입니다.
-
+<br>
+개인 맞춤형 유튜브 분석 및 인사이트 제공 플랫폼입니다.
+<br>
+<br>
 ## 🛠️ 기술 스택
 Front
 <br>
@@ -17,6 +19,8 @@ Data Analysis
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white">
 <br>
 
+<br>
+
 ## 🗂️ 협업툴
 <br>
 
@@ -24,6 +28,8 @@ Data Analysis
 ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 ![Swagger](https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white)
 
+<br>
+<br>
 ## 기능 소개
 
 
