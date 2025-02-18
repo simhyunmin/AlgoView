@@ -8,6 +8,12 @@
 <br>
 
 # 🛠️ 기술 스택
+<style>
+  img {
+    display: inline-block; /* 또는 inline */
+    margin-right: 10px; /* 이미지 간의 간격 조정 */
+  }
+</style>
 
 <br>
 
