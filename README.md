@@ -3,7 +3,9 @@
 개인 맞춤형 유튜브 분석 및 인사이트 제공 플랫폼입니다.
 <br>
 <br>
-## 🛠️ 기술 스택
+<br>
+# 🛠️ 기술 스택
+<br>
 Front
 <br>
 
@@ -18,10 +20,10 @@ Data Analysis
 <br>
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white">
 <br>
-
+<br>
 <br>
 
-## 🗂️ 협업툴
+# 🗂️ 협업툴
 <br>
 
 ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white)
@@ -30,6 +32,7 @@ Data Analysis
 
 <br>
 <br>
-## 기능 소개
+<br>
+# 기능 소개
 
 
