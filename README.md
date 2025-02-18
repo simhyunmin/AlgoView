@@ -10,6 +10,9 @@
 <br>
 Front
 <br>
+<br>
+<br>
+<br>
 
 Backend
 <br>
@@ -17,10 +20,14 @@ Backend
 <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=Spring&logoColor=white">
 <img src="https://img.shields.io/badge/springboot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white">
 <br>
+<br>
+<br>
+<br>
 
 Data Analysis
 <br>
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white">
+<br>
 <br>
 <br>
 <br>
