@@ -8,12 +8,6 @@
 <br>
 
 # 🛠️ 기술 스택
-<style>
-  img {
-    display: inline-block; /* 또는 inline */
-    margin-right: 10px; /* 이미지 간의 간격 조정 */
-  }
-</style>
 
 <br>
 
@@ -25,10 +19,8 @@
 <br>
 
 ### Backend
-<br>
 <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=Spring&logoColor=white">
 <img src="https://img.shields.io/badge/springboot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white">
-<br>
 <br>
 <br>
 <br>
