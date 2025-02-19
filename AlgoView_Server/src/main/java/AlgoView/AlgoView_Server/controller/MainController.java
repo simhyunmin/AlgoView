@@ -4,8 +4,13 @@ import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 @Tag(name = "AlgoView API 명세서", description = "API 전체 흐름에 대한 명세서입니다. 이후 엔티티 설계 후 RESTful 형태로 바꿀 예정 ")
 @Controller
@@ -23,6 +28,15 @@ public class MainController {
     @Operation(summary = "사용자 후기 등록하기", description = "후기 등록할 때의 요청입니다.")
     public String setReview() throws Exception {
         return "redirect:/AlgoView";
+    }
+
+    @PostMapping("/setStatus") //Chat GPT에게 감사ㅎ
+    @Operation(summary = "진행 상태 표시하기", description = "버퍼링 시 진행 상태를 텍스트로 표시합니다.")
+    public ResponseEntity<Map<String, String>> setStatus() {
+        Map<String, String> response = new HashMap<>();
+        response.put("status", "Processing...");
+
+        return ResponseEntity.ok(response);
     }
 
     @GetMapping("/news")
@@ -48,6 +62,14 @@ public class MainController {
     public String getAnalysisResult(@PathVariable Long analysisId) throws Exception {
         return "/results/{analysisId}";
     }
+
+    @GetMapping("/review/{pageId}")
+    @Operation(summary = "후기 페이지 정보 가져오기", description = "사용자 후기를 보여줍니다.")
+    public String getReview2() {
+        return "Review";
+    }
+
+
 
 
 }
